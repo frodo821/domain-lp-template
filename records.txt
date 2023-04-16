@@ -1,0 +1,21 @@
+${domain-name}	3600	IN	SOA	${domain-name} root.${domain-name} 2042373471 7200 3600 86400 3600
+
+;; A Records
+${domain-name}.	1	IN	A	185.199.108.153
+${domain-name}.	1	IN	A	185.199.111.153
+${domain-name}.	1	IN	A	185.199.110.153
+${domain-name}.	1	IN	A	185.199.109.153
+www.${domain-name}.	1	IN	A	185.199.108.153
+www.${domain-name}.	1	IN	A	185.199.111.153
+www.${domain-name}.	1	IN	A	185.199.110.153
+www.${domain-name}.	1	IN	A	185.199.109.153
+
+;; AAAA Records
+${domain-name}.	1	IN	AAAA	2606:50c0:8003::153
+${domain-name}.	1	IN	AAAA	2606:50c0:8002::153
+${domain-name}.	1	IN	AAAA	2606:50c0:8001::153
+${domain-name}.	1	IN	AAAA	2606:50c0:8000::153
+www.${domain-name}.	1	IN	AAAA	2606:50c0:8003::153
+www.${domain-name}.	1	IN	AAAA	2606:50c0:8002::153
+www.${domain-name}.	1	IN	AAAA	2606:50c0:8001::153
+www.${domain-name}.	1	IN	AAAA	2606:50c0:8000::153
